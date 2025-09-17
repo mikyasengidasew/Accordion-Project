@@ -1,4 +1,43 @@
-.text {
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-block-end: 3rem;
+}
+
+.accordion {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion-item {
+  display: grid;
+  justify-items: center;
+  padding-inline: 3rem;
+}
+
+.accordion-button {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.accordion-content-container {
+  background: rgba(0, 103, 200, 0.604);
+  display: flex;
+  padding: 1rem;
+}
+
+.accordion-content {
+  text-align: justify;
+}
+
+.accordion-button span {
   font-size: 1.2rem;
-  font-weight: 600;
 }

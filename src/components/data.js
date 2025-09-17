@@ -47,18 +47,6 @@ const accordionData = [
     content:
       "An API (Application Programming Interface) lets different applications communicate. In web development, you often use APIs to fetch or send data.",
   },
-  {
-    id: 9,
-    title: "What is a Database?",
-    content:
-      "A database stores and manages data. Common ones include SQL-based systems like PostgreSQL and MySQL, or NoSQL systems like MongoDB.",
-  },
-  {
-    id: 10,
-    title: "What’s the difference between SQL and NoSQL?",
-    content:
-      "SQL databases use structured tables and relationships, while NoSQL databases are more flexible and often store data in JSON-like documents.",
-  },
 ];
 
 export default accordionData;
