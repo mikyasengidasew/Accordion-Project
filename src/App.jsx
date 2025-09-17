@@ -1,7 +1,12 @@
+import Accordion from "./components/Accordion";
 import "./App.css";
 
 function App() {
-  return "Hello world";
+  return (
+    <>
+      <Accordion />
+    </>
+  );
 }
 
 export default App;
